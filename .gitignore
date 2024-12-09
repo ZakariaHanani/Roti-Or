@@ -1,6 +1,11 @@
 wp-config.php
-<<<<<<< HEAD
 wp-config-simple.php
 wp-config-sample.php
-=======
->>>>>>> 13e027a87dba308b93a779cf6ea902725cb87bb5
+# .gitignore
+
+# Ignore .env files
+.env
+
+# Ignore any files containing sensitive credentials or secrets
+*.key
+*.pem
